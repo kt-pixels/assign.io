@@ -362,14 +362,8 @@
                 
                     <label for="detaildinfo">Detail For your Project</label>
                     <textarea name="detaildinfo" id="detaildinfo" cols="40" rows="5" placeholder="enter the full detail of your project..." required></textarea>   
-                    
-                    <button type="button" name="submit" id="btnSbmit" class="btnSbmit">Make Payment</button>
-            </fieldset>
-            </form>
 
-            <form action="" method="post" class="form" id="paymentForm" style="display: none;" netlify>
-                <fieldset>
-                    <legend>Money Received Form</legend>
+                    <h3>Payment</h3>
 
                     <label for="payerName">Payer's Name:</label>
                     <input type="text" id="payerName" name="payerName" required>
@@ -386,9 +380,8 @@
                     <label for="payerEmail">Code:</label>
                     <img src="images/qr.jpg" alt="qr code">
                     
-                    <button type="submit" id="Sbmitform" class="btnSbmit" onclick="
-                    submitForm();">Payment Done</button>
-                </fieldset>
+                    <button type="submit" name="submit" id="btnSbmit" class="btnSbmit" onclick="submitForm()">Make Payment</button>
+            </fieldset>
             </form>
 
             <div id="contactImage">

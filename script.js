@@ -3,19 +3,19 @@ const paymentForm = document.getElementById('paymentForm');
 const Usersinfo = document.getElementById('Usersinfo');
 
 
-function showReceiptForm() {
-    makePayment.addEventListener('click', function(){
-        if (paymentForm.style.display === 'none' || paymentForm.style.display === '') {
-            paymentForm.style.display = 'block'
-            Usersinfo.style.display = 'none'
-        }else{
-            paymentForm.style.display = 'none';
-            Usersinfo.style.display = 'block'
-        }
-    })
-}
+// function showReceiptForm() {
+//     makePayment.addEventListener('click', function(){
+//         if (paymentForm.style.display === 'none' || paymentForm.style.display === '') {
+//             paymentForm.style.display = 'block'
+//             Usersinfo.style.display = 'none'
+//         }else{
+//             paymentForm.style.display = 'none';
+//             Usersinfo.style.display = 'block'
+//         }
+//     })
+// }
 
-showReceiptForm()
+// showReceiptForm()
 
 function submitForm() {
     // Get form values and perform validation as needed
@@ -29,7 +29,7 @@ function submitForm() {
         Payer's Email: ${payerEmail}`);
         
     // Clear the receipt form
-    document.getElementById("paymentForm").reset();
+    document.getElementById("Usersinfo").reset();
 
 }
 
