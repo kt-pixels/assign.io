@@ -332,7 +332,7 @@
             <h2>ORDER YOUR PROJECT</h2>
         </section>
         <section class="ContactForm">
-            <form action="" method="post" class="form" id="Usersinfo">
+            <form action="" method="post" class="form" id="Usersinfo" netlify>
             <fieldset>
                 <legend>Order Your Assignment Now</legend>
 
@@ -363,11 +363,11 @@
                     <label for="">Detail For your Project</label>
                     <textarea name="" id="" cols="40" rows="5" placeholder="enter the full detail of your project..." required></textarea>   
                     
-                    <input type="button" value="Make Payment" name="submit" id="btnSbmit" class="btnSbmit">
+                    <button type="submit" name="submit" id="btnSbmit" class="btnSbmit">Make Payment</button>
             </fieldset>
             </form>
 
-            <form action="" method="post" class="form" id="paymentForm" style="display: none;">
+            <form action="" method="post" class="form" id="paymentForm" style="display: none;" netlify>
                 <fieldset>
                     <legend>Money Received Form</legend>
 
@@ -386,8 +386,8 @@
                     <label for="payerEmail">Code:</label>
                     <img src="images/qr.jpg" alt="qr code">
                     
-                    <input type="button" value="Payment Done" name="submit" id="Sbmitform" class="btnSbmit" onclick="
-                    submitForm();">
+                    <button type="submit" id="Sbmitform" class="btnSbmit" onclick="
+                    submitForm();">Payment Done</button>
                 </fieldset>
             </form>
 
