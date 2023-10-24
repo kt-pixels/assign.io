@@ -552,7 +552,7 @@ fieldset {
     
     .main-content p {
         text-align: justify;
-        font-size: 22px;
+        font-size: 17px;
         padding: 0;
     }
 
@@ -606,11 +606,11 @@ fieldset {
 
     .choose .left p {
         margin: 0;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .choose .left ul li {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .choose .left ul {
