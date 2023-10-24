@@ -459,7 +459,7 @@ footer {
 }
 
 .btnSbmit {
-    margin-top: 20px;
+    margin: 20px;
     border-radius: 10px;
     font-weight: 700;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
